@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darksalmon;
+}
+.registration-form{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(45deg, tomato, orange);
+    width: 300px;
+    padding: 1%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+}
+.registration-form .fa-user-circle{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 10px solid orangered;
+    background-color: tomato;
+    box-shadow: 0 0 3px black;
+    font-size: 128px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -25%;
+}
+.registration-form h1{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    margin: 10px 0;
+}
+.form-control{
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 99%
+}
+.form-control:focus{
+    background-color: wheat;
+}
+.register-btn{
+    width: 99%;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    background-image: linear-gradient(45deg, tomato, orange);
+    box-shadow: 0 3px 6px black;
+}
+.register-btn:hover{
+    cursor: pointer;
+}
